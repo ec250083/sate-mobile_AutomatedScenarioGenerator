@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ncr.satemobile.MainActivity">
+    <item
+        android:id="@+id/action_settings_cycle"
+        android:orderInCategory="100"
+        android:title="@string/action_settings_cycle"
+        app:showAsAction="never" />
+    <item
+            android:id="@+id/action_settings_weekly"
+            android:orderInCategory="100"
+            android:title="@string/action_settings_weekly"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/action_settings_year"
+            android:orderInCategory="100"
+            android:title="@string/action_settings_year"
+            app:showAsAction="never" />
+</menu>

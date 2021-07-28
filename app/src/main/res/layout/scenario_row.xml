@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.Barrier
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/barrier2"
+                    app:barrierDirection="start"
+                    tools:layout_editor_absoluteX="83dp" />
+
+            <TextView
+                    android:text="TextView"
+                    android:drawableLeft="@drawable/text"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/sce_name"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:paddingRight="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="0dp"
+                    android:textColor="@android:color/holo_green_light"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:drawableLeft="@drawable/desc"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:id="@+id/sce_type"
+                    app:layout_constraintStart_toStartOf="@+id/sce_name"
+                    app:layout_constraintTop_toBottomOf="@+id/sce_name"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="0dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:textColor="@android:color/holo_green_light"
+android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+                    android:paddingRight="8dp"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:layout_height="30dp"
+                    android:id="@+id/sce_desc"
+                    app:layout_constraintStart_toStartOf="@+id/sce_type"
+                    app:layout_constraintTop_toBottomOf="@+id/sce_type"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

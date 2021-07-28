@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/FirstFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Projects" />
+        <item
+            android:id="@+id/scenario"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Scenarios" />
+        <item
+            android:id="@+id/actionsFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Actions" />
+        <item
+            android:id="@+id/testsetFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="TestSets" />
+        <item
+            android:id="@+id/dashboardFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Dashboard" />
+    </group>
+</menu>
