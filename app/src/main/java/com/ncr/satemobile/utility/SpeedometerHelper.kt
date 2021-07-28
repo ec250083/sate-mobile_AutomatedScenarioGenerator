@@ -1,10 +1,10 @@
-package com.example.a2ndphase.utility
+package com.ncr.satemobile.utility
 
 import android.animation.ObjectAnimator
 import android.graphics.drawable.LayerDrawable
 import android.graphics.drawable.RotateDrawable
 import android.widget.ImageView
-import com.example.a2ndphase.R
+import com.ncr.satemobile.R
 
 object SpeedometerHelper {
 
